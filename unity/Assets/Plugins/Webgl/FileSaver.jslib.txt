@@ -1,0 +1,12 @@
+mergeInto(LibraryManager.library, {
+  SaveFile: function (filenamePtr, arrayPtr, length) {
+    var filename = UTF8ToString(filenamePtr);
+    var array = new Uint8Array(Module.HEAPU8.buffer, arrayPtr, length);
+    var blob = new Blob([array], { type: "application/octet-stream" });
+
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    a.click();
+  }
+});

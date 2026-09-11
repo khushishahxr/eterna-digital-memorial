@@ -1,0 +1,48 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700; /* Bold headings */
+}
+
+.sticky-note {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  background-image: url("C:\Users\ASUS\eterna-app\public\images\sticky-note.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 30px 20px 30px; /* top right bottom left */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: move;
+}
+
+.note-text {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+.note-meta {
+  font-size: 0.8em;
+  color: #555;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.note-image {
+  width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+  margin-top: 8px;
+  border-radius: 4px;
+}
