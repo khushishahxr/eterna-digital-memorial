@@ -44,6 +44,17 @@ You'll need your own Firebase project config in `web/src/firebaseConfig.js` and 
 
 **Unity project:** open `unity/` in Unity Hub (see `unity/ProjectSettings/ProjectVersion.txt` for the exact editor version) and build for WebGL.
 
-## Screenshots / demo
+## Screenshots
 
-_TODO: add screenshots and a demo GIF/video here._
+<table>
+<tr>
+<td><img src="screenshots/Eterna01.png" width="260"/><br/><sub>Memory wall</sub></td>
+<td><img src="screenshots/Eterna02.png" width="260"/><br/><sub>A shared memory note</sub></td>
+<td><img src="screenshots/Eterna03.png" width="260"/><br/><sub>QR code sharing</sub></td>
+</tr>
+<tr>
+<td><img src="screenshots/Eterna04.png" width="260"/><br/><sub>Memorial profile creation</sub></td>
+<td><img src="screenshots/Eterna06.png" width="260"/><br/><sub>3D tombstone AR viewer</sub></td>
+<td><img src="screenshots/Eterna07.png" width="260"/><br/><sub>Tombstone customizer (Unity)</sub></td>
+</tr>
+</table>
